@@ -3,7 +3,8 @@
 # numbers, inclusive.
 
 def sum_of_range(array)
-
+  sortedarr = array.sort
+  p (sortedarr[0]..sortedarr[1]).sum
 end
 
 # Driver code - don't touch anything below this line.

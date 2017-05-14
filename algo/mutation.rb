@@ -3,6 +3,11 @@
 # the first string, and false otherwise.
 
 def mutation?(base_word, mutation)
+  a = base_word.split(//)
+  b = mutation.split(//)
+  a.each do |letter|
+    b.include?(letter)
+  end
 
 end
 
